@@ -5,5 +5,53 @@
     margin: 0;
     box-sizing: 0;
     font-family: 'Roboto Mono', monospace, sans-serif;
+    overflow: hidden;
 }
+
+/*header*/
+header,
+.header.left,
+.header.right {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    padding:5px 40px;
+    border-bottom: 2px solid;
+    background-color: rgb(255, 251, 246);
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size:35px
+}
+
+header .logo {
+    border-radius: 25px;
+    margin-right:10px;
+}
+
+
+.header.left {
+    margin-right: auto;
+}
+
+.header.right {
+    font-size: larger;
+}
+
+ .header.right a {
+    text-decoration: none;
+    color: black;
+    border-right: 2px solid;
+    padding: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+
 
