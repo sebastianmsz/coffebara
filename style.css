@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-    font-size:35px
+    font-size: 35px;
 }
 
 header .logo {
@@ -79,11 +79,11 @@ nav a:hover {
     box-shadow: 10px 10px;
     font-size: 18px;
     margin: 20px 30px;
+    align-items: center;
 }
 
 .greeting-card .text {
-    width: 300px;
-    flex: 1 1;
+    flex: 1;
 }
 
 .greeting-card img {
@@ -93,6 +93,51 @@ nav a:hover {
 }
 
 /*products*/
+
+.product.section {
+    padding: 30px 10px;
+}
+
+.product h2 {
+    font-size: xxx-large;
+    margin-bottom: 20px;
+    align-self: start;
+    margin-left: 30px;
+}
+
+.product.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card h3 {
+    font-size:xx-large;
+    margin-bottom: 10px;
+}
+
+.card img {
+    border: 2px solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    padding: 20px;
+    border: 2px solid;
+    flex: 0;
+    background-color: rgb(255, 240, 222);
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+    margin: 12px;
+}
+
 
 
 
