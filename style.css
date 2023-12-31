@@ -18,7 +18,7 @@ header,
 header {
     padding:5px 40px;
     border-bottom: 2px solid;
-    background-color: rgb(255, 251, 246);
+    background-color: rgb(255, 251, 242);
     flex-wrap: wrap;
 }
 
@@ -49,14 +49,14 @@ header .logo {
 }
 
 nav a:hover {
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(23, 11, 0, 0.425);
 }
 
 
 /* main*/
 
 .section {
-    background-color: rgb(255, 240, 217);
+    background-color: rgb(255, 240, 222);
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -69,14 +69,14 @@ nav a:hover {
 }
 
 .greeting-card {
-    background-color: rgba(255, 252, 247, 0.66);
+    background-color: rgba(255, 251, 242);
     padding: 20px;
     border-radius: 20px;
     display: flex;
     flex: 0 1 600px;
     flex-wrap: wrap;
     border: 2px solid;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px rgb(23, 11, 0);
     font-size: 18px;
     margin: 20px 30px;
     align-items: center;
@@ -134,12 +134,80 @@ nav a:hover {
     flex: 0;
     background-color: rgb(255, 240, 222);
     border-radius: 20px;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px rgb(23, 11, 0);
     margin: 12px;
 }
 
+/*quote*/
 
+.quote-container {
+    flex-basis: 800px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: rgb(23, 11, 0);
+}
 
+.quote-container h3{
+    align-self: flex-end;
+    font-size: larger;
+}
+
+/*contact*/
+
+.contact-container {
+    flex-basis: 1000px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding:50px 30px;
+    display: flex;
+    margin: 40px;
+    background-color: rgb(23, 11, 0);
+    color: rgb(255, 251, 242);
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.contact-container button {
+    color:rgb(255, 251, 242);
+    background-color: rgb(23, 11, 0);
+    border: 2px solid;
+    padding: 8px;
+    justify-self: flex-end;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.contact-container .text {
+    margin: 10px;
+}
+
+.contact-container h3{
+    font-size: larger;
+}
+
+.contact-container a{
+    align-self: end;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(23, 11, 0);
+    font-size: large;
+}
+
+footer a {
+    color:rgb(255, 251, 242);
+    text-decoration: none;
+}
 
 
 
