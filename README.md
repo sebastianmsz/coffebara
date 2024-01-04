@@ -1,5 +1,5 @@
-# Odin CSS Practice Project - Coffeebara-Café ☕️
-Hello, this is the repository for the Coffeebara-café website, ive started this this project to test my new knowledge on CSS and CSS-Flexbox as part of my journey to learn front end development as a self taught student following the Odin Project curriculum.
+# Coffeebara-Café - Odin CSS Practice Project ☕️
+Hello, this is the repository for the Coffeebara-café website, ive started this this project to test my new knowledge on CSS and CSS-Flexbox as part of my journey to learn front end development as a self taught student following the [Odin Project curriculum.](https://www.theodinproject.com/dashboard). **Notice:** This and the other projects from the [Odin Foundations Course](https://www.theodinproject.com/paths/foundations/courses/foundations) won't be updated. This is to keep a record of my learning progress and document how my work was when I started in web development.
 
 ## Project Description
 
@@ -20,14 +20,19 @@ This project is part of The Odin Project curriculum and aims to apply the concep
 
 ## Usage Instructions
 
+### Clone it
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/sebastianmsz/recipes_website
    ```
 
 2. Open the `index.html` file in your browser to view the page.
 
 3. Explore the code in the repository to understand how the page has been structured and designed.
+
+### Or... just visit the page
+[Coffeebara Cafe website](https://github.com/sebastianmsz/coffeebara-website)
+
 
 ## Contributions
 
