@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
@@ -12,28 +12,25 @@ header,
 .header.left,
 .header.right {
     display: flex;
-    align-items: center;
 }
 
 header {
     padding:5px 40px;
     border-bottom: 2px solid;
     background-color: rgb(255, 251, 242);
+    display: flex;
     flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
 }
-
-h1 {
-    font-size: 35px;
-}
-
-header .logo {
-    border-radius: 25px;
-    margin-right:10px;
-}
-
 
 .header.left {
     margin-right: auto;
+    align-items: center;
+}
+
+.header.left a {
+    display: flex;
 }
 
 .header.right {
@@ -52,6 +49,18 @@ nav a:hover {
     background-color: rgba(23, 11, 0, 0.425);
 }
 
+.section.greeting.section {
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+header .logo {
+    border-radius: 25px;
+    margin-right:10px;
+}
 
 /* main*/
 
@@ -62,7 +71,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
-
 
 .pair {
     background-color: rgb(255, 251, 242);
@@ -168,22 +176,12 @@ nav a:hover {
     background-color: rgb(23, 11, 0);
     color: rgb(255, 251, 242);
     align-items: center;
-    justify-content:center;
     flex-wrap: wrap;
-}
-
-.contact-container button {
-    color:rgb(255, 251, 242);
-    background-color: rgb(23, 11, 0);
-    border: 2px solid;
-    padding: 8px;
-    justify-self: flex-end;
-    margin: 10px;
-    margin-left: 50px;
+    justify-content: center;
 }
 
 .contact-container .text {
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 .contact-container h3{
@@ -191,7 +189,19 @@ nav a:hover {
 }
 
 .contact-container a{
-    align-self: end;
+    color:rgb(255, 251, 242);
+    background-color: rgb(23, 11, 0);
+    border: 2px solid;
+    padding: 8px;
+    text-decoration: none;
+    margin: 10px 20px;
+
+}
+
+.contact-container a:hover{
+    color: rgb(23, 11, 0);
+    background-color: rgb(255, 251, 242);
+
 }
 
 /*footer*/
@@ -208,6 +218,3 @@ footer a {
     color:rgb(255, 251, 242);
     text-decoration: none;
 }
-
-
-

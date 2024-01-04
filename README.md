@@ -7,14 +7,14 @@ This project is part of The Odin Project curriculum and aims to apply the concep
 
 ## Technologies Used
 
-- **Git** Manage of the page versions.
+- **Git:** Manage of the page versions.
 - **HTML:** Basic structure of the page.
 - **CSS:** Styles to enhance presentation and appearance.
-- **CSS Flexbox:** Implementation of flexible designs and layout of the elements.
+- **CSS-Flexbox:** Implementation of flexible designs and layout of the elements.
 
 ## Folder Structure
 
-- **styles.css:** Contains the CSS files used to style the page.
+- **style.css:** Contains the CSS files used to style the page.
 - **img:** Stores the images used in the page.
 - **index.html:** Main file representing the home page of the site.
 
@@ -35,6 +35,6 @@ If you're also following The Odin Project curriculum or have suggestions to impr
 
 ## Contact
 
-If you have questions about the project, The Odin Project curriculum, or just want to exchange ideas about web development, feel free to get in touch. You can reach me at [sevas.molina2004@gmail.com](sevas.molina2004@gmail.com).
+If you have questions about the project, The Odin Project curriculum, or just want to exchange ideas about web development, feel free to get in touch. You can reach me at sevas.molina2004@gmail.com
 
 Enjoy exploring the wonderful world of web development! ☕️🚀
